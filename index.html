@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type = "text/css" rel="stylesheet" href="./style/style.css">
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css' integrity='sha512-Fdq8QvrEd3TD4heN8gNTOl79sAZR7zsiHIDQbE5eEBxx8pPfb/yJHaBWxhoG7SNcQiBmrrUHlg5TiNX4ovt6Jg==' crossorigin='anonymous'/>
+    <link type="text/css" rel="stylesheet" href="./style/style.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css'
+        integrity='sha512-Fdq8QvrEd3TD4heN8gNTOl79sAZR7zsiHIDQbE5eEBxx8pPfb/yJHaBWxhoG7SNcQiBmrrUHlg5TiNX4ovt6Jg=='
+        crossorigin='anonymous' />
     <title>MyMéteo</title>
 </head>
+
 <body>
     <section id="blocpage">
-        
+
         <h1>
             <span id="ville">Marseille</span>
             <span class="tooltip">Tapez une autre ville si vous le souhaitez</span>
@@ -19,16 +23,18 @@
         <h2>
             <span id="temperature">25</span>C°(<span id="descriptions">Ciel degagé</span>) <br>
             <br>
-            <span id="time"></span>
+            <span id="timeByZone"></span>
+            <br>
+            <span id="timeLocal"></span>
         </h2>
         <div id="infosupp">
             <span id="humidity"></span><br>
             <span id="coord"></span><br>
             <span id="pression"></span><br>
         </div>
-        <div class="test">il est actuellement: <span id="horaire"></span> chez vous</div>
     </section>
-    
+
     <script src="./script/script2.js"></script>
 </body>
+
 </html>
