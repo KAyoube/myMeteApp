@@ -1,0 +1,59 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#blocpage{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.clear{
+    background-image: url(../images/clear.jpg);
+}
+
+.clouds{
+    background-image: url(../images/clouds.jpg);
+}
+
+.rain{
+    background-image: url(../images/rain.jpg);
+}
+
+.snow{
+    background-image: url(../images/snow.jpg);
+}
+
+.mist{
+    background-image: url(../images/mist.jpg);
+}
+
+.drizzle{
+    background-image: url(../images/drizzle.jpg);
+}
+
+h1{
+    font-size: 3em;
+}
+
+i.wi{
+    font-size: 5em;
+    line-height: 3em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+.tooltip{
+    display: none;
+}
